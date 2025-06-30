@@ -42,6 +42,9 @@ body {
 
 .form{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50vw;
 }
 
@@ -51,6 +54,7 @@ body {
 }
 
 .header{
+    color: var(--dark);
     font: 600 32px/40px "Manrope";
 }
 
