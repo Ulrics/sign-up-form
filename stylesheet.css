@@ -1,0 +1,10 @@
+:root {
+    --dark: #3E3E3E;
+    --grey: #7A7A7A;
+    --white: #FFFFFF;
+    --primary-green: #15DB75;
+}
+
+h1 {
+    color: var(--primary-green);
+}
