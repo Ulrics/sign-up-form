@@ -16,15 +16,23 @@
             <div class="form__container">
                 <div class="header">Your next journey awaits</div>
                 <div class="paragraph">Let's create your new account</div>
-                <form action="example.com/path" method="post">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="password">Password</label>
-                    <input type="text" name="password" id="password">
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="text" name="confirm-password" id="password">
+                <form action="example.com/path" method="post" class="account-form">
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-field">
+                        <label for="password">Password</label>
+                        <input type="text" name="password" id="password">
+                    </div>
+                    <div class="form-field">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="text" name="confirm-password" id="password">
+                    </div>
                     <button type="submit">Create Account</button>
                 </form>
             </div>

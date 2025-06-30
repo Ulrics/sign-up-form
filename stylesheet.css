@@ -3,6 +3,7 @@
     --grey: #7A7A7A;
     --white: #FFFFFF;
     --primary-green: #15DB75;
+    --bdr-primary: #D3D5DB;
 }
 
 body {
@@ -61,4 +62,40 @@ body {
 .paragraph{
     color: var(--grey);
     font: 400 16px/24px "Manrope";
+}
+
+.account-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+label {
+    font: 500 16px/24px "Manrope";
+    color: var(--dark);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid var(--bdr-primary);
+    box-sizing: border-box;
+
+}
+
+button[type="submit"] {
+    background-color: var(--primary-green);
+    font: 500 16px/24px "Manrope";
+    color: #FFFFFF;
+    width: 100%;
+    padding: 12px;
+    border: 0px;
+    border-radius: 10px;
 }
