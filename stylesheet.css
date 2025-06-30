@@ -5,6 +5,56 @@
     --primary-green: #15DB75;
 }
 
-h1 {
-    color: var(--primary-green);
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.hero {
+    padding: 16px;
+    width: 50vw;
+}
+
+.hero__image{
+    position: relative;
+    overflow: clip;
+    border-radius: 16px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sideImage{
+    height: 100%;
+}
+
+.hero__location-tag{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.form{
+    display: flex;
+    width: 50vw;
+}
+
+.logo{
+   width: 230px;
+   height: 40px; 
+}
+
+.header{
+    font: 600 32px/40px "Manrope";
+}
+
+.paragraph{
+    color: var(--grey);
+    font: 400 16px/24px "Manrope";
 }
