@@ -176,3 +176,7 @@ button[type="submit"]:hover{
     text-decoration: underline;
 }
 
+.underline-text:hover{
+    cursor: pointer;
+}
+
